@@ -23,5 +23,12 @@ git add . # Agrega todos los archivos que tengo el working directory (WD)
 2. Hago el commit 
 ```sh
 git commit -m "titulo descriptivo" 
+git commit
 ```
 
+# Ver listado de commits que hice en el repo
+
+```sh
+git log
+git log oneline
+```
