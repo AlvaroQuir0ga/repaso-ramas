@@ -32,3 +32,23 @@ git commit
 git log
 git log oneline
 ```
+
+# Agregar un remoto a mi repositorio local
+
+```sh
+git remote add origin <url-al-repo-remoto> 
+git remote add origin https://github.com/AlvaroQuir0ga/repaso-ramas.git  
+```
+
+# Para ver si se agrego el repo remoto 
+
+```sh
+git remote -v
+```
+
+# Subo al remoto el repositorio local
+
+```sh
+git push -u origin main # La primera vez
+git push 
+``` 
